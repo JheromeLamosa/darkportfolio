@@ -289,24 +289,24 @@ a:hover {
 }
 
 .utsfp .project-img-container {
-    background-image: url("/img/usaptayosafp.jpg");
+    background-image: url('./img/usaptayosafp.jpg');
 }
 .utsfp-mobile {
-    background-image: url("/img/usaptayosafpmobile.png");
+    background-image: url('./img/usaptayosafpmobile.png');
 }
 
 .hino-carmona .project-img-container {
-    background-image: url("/img/hinocarmonadesktop.png");
+    background-image: url('./img/hinocarmonadesktop.png');
 }
 .hinocarmona-mobile {
-    background-image: url("/img/hinocarmonamobile.png");
+    background-image: url('./img/hinocarmonamobile.png');
 }
 
 .raalaw .project-img-container {
-    background-image: url("/img/raattorneyslawdesktop.png");
+    background-image: url('./img/raattorneyslawdesktop.png');
 }
 .raalaw-mobile {
-    background-image: url("/img/raattorneyslawmobile.png"); 
+    background-image: url('/img/raattorneyslawmobile.png'); 
 }
 
 .mobile-border {
