@@ -285,7 +285,7 @@ a:hover {
     background-image: url('./img/vertere-gs.jpg');
 }
 .vertere-mobile {
-    background: url("/img/verteremobile.png");
+    background: url('./img/verteremobile.png');
 }
 
 .utsfp .project-img-container {
