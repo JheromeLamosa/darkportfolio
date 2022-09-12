@@ -600,6 +600,13 @@ h2.projectname {
 }
 
 /* Mobile Responsivenes */
+
+@media only screen and (max-width: 1380px) {
+    .project-img-container {
+        height: 335px;
+    }
+}
+
 @media only screen and (max-width: 980px) {
     #main-banner h1 {
         font-size: 70px;
@@ -736,9 +743,8 @@ h2.projectname {
         width: 20px;
         height: 20px;
     }
-}
-@media only screen and (max-width: 1380px) {
     .project-img-container {
-        height: 335px;
+        height: 200px
     }
 }
+
