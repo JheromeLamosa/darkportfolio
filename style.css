@@ -309,7 +309,7 @@ a:hover {
     background-image: url('/img/raattorneyslawmobile.png'); 
 }
 
-.mobile-border {
+.mobile-border {    
     position: absolute;
     bottom: -15px;
 }
@@ -735,5 +735,10 @@ h2.projectname {
     .mobile-border:after {
         width: 20px;
         height: 20px;
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .project-img-container {
+        height: 335px;
     }
 }
