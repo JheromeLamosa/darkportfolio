@@ -696,6 +696,7 @@ h2.projectname {
     }
     .description {
         transform: unset!important;
+        width: 100%!important;
     }
     .works-slider {
         display: flex;
