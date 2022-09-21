@@ -10,7 +10,6 @@ jQuery(document).ready(function($) {
   });
 
 
-
   var header = $(".navigation-container");
   
   $(window).scroll(function() {    
@@ -21,8 +20,6 @@ jQuery(document).ready(function($) {
           header.removeClass("scrolled");
       }
   });
-
- 
 
   var lastScrollTop = 0;
   $(window).scroll(function(event){
@@ -48,8 +45,9 @@ jQuery(document).ready(function($) {
     slidesToScroll: 3
   });
 
-
-
+  AOS.init({
+    duration: 1200,
+  })
 });
 
 

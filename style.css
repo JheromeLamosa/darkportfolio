@@ -253,7 +253,7 @@ a:hover {
     font-weight: bold;
     display: flex;
     align-items: center;
-    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4, 0 0 400px #03bcf4;
+    /* text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4, 0 0 400px #03bcf4; */
 }
 .text-header h2::after {
     content: "";
@@ -416,7 +416,11 @@ a:hover {
     border-radius: 5px;
     box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
 }
-.description:before {
+.description-container {
+    position: relative;
+    z-index: 999;
+}
+.description-container:before {
     content: "";
     width: 100%;
     height: 100%;
@@ -424,8 +428,7 @@ a:hover {
     position: absolute;
     top: 22px;
     border-radius: 5px;
-    border: 2px solid #112240;
-    z-index: -9999;
+    border: 2px solid #ccd6f6;
 }
 .works-slider {
     display: flex;
@@ -436,6 +439,8 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 9999;
 }
 .website-screenshots-container {
     width: 55%;
@@ -468,14 +473,22 @@ h2.projectname {
 .work-list-odd .project-info{
     text-align: right;
 }
-.work-list-odd .description:before {
-    left: 22px;
+.work-list-odd .description-container:before {
+    right: 0;
 }
 .work-list-odd .open-the-site-button i::before {
     padding-left: 10px;
 }
 .work-list-odd .description {
-    transform: translatex(-22px);
+    transform: translatex(-50px);
+    width: calc(100% + 25px);
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+.fade-in.appear {
+    opacity: 1
 }
 
 /* work list even */
@@ -485,14 +498,15 @@ h2.projectname {
 .work-list-even .project-info{
     text-align: left;
 }
-.work-list-even .description:before {
-    right: 22px;
+.work-list-even .description-container:before {
+    left: 0;
 }
 .work-list-even .open-the-site-button i::before {
     padding-right: 10px;
 }
 .work-list-even .description {
-    transform: translatex(22px);
+    transform: translatex(25px);
+    width: calc(100% + 25px);
 }
 
 /* Hanging bulb */
@@ -677,7 +691,7 @@ h2.projectname {
     .project-info {
         padding-top: 50px;
     }
-    .description:before {
+    .description-container:before {
         display: none;
     }
     .description {
@@ -752,4 +766,3 @@ h2.projectname {
         height: 200px
     }
 }
-
