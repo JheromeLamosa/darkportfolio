@@ -17,7 +17,7 @@ body {
     box-sizing: border-box;
 }
 
-h2, h3, h4 {
+h2, h3, h4, p {
     font-family: 'Ubuntu';
 }
 h1 {
@@ -27,7 +27,9 @@ h1 {
     font-weight: 700;
     box-sizing: inherit;
 }
-
+p {
+    color: #a8b2d1;
+}
 section {
     background-color: #0A192F;
     padding: 115px 30px;
@@ -618,6 +620,53 @@ h2.projectname {
     font-size: 18px;
 }
 
+/* Works */
+.text-header h2 {
+    font-size: 32px;
+    color: #fff;
+    font-family: var(--inter);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-text {
+    width: 50%;
+}
+.about-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.image-profile-container {
+    position: relative;
+    z-index: 9999;
+}
+.image-profile-container:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 22px;
+    border-radius: 5px;
+    border: 2px solid #ccd6f6;
+    right: -20px;
+    z-index: -9;
+}
+
+.about-image img {
+    object-fit: contain;
+    width: 380px;
+}
+p {
+    color: #a8b2d1;
+    font-size: 20px;
+    text-align: left;
+}
 /* Mobile Responsivenes */
 
 @media only screen and (max-width: 1380px) {
@@ -795,5 +844,8 @@ h2.projectname {
     }
     .navbar-brand img {
         width: 30px;
+    }
+    .description {
+        text-align: left;
     }
 }
