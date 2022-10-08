@@ -839,7 +839,13 @@ p {
 }
 @media only screen and (max-width: 480px) {
     #main-banner h1 {
-        font-size: 40px;
+        font-size: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #main-banner h1 span {
+        font-size: 70px;
+        padding-left: 0;
     }
     p {
         font-size: 16px;
@@ -919,5 +925,9 @@ p {
     }
     .about-image img {
         width: 100%!important;
+    }
+    #main-banner p {
+        max-width: 100%;
+        font-size: 16px;
     }
 }
