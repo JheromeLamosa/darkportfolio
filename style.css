@@ -917,4 +917,7 @@ p {
     .about-image {
         justify-content: flex-start;
     }
+    .about-image img {
+        width: 100%!important;
+    }
 }
