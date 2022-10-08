@@ -830,6 +830,12 @@ p {
     p {
         font-size: 18px;
     }
+    .desktop-border, .mobile-border {
+        filter: unset;
+    }
+    .image-profile-container img {
+        filter: unset;
+    }
 }
 @media only screen and (max-width: 480px) {
     #main-banner h1 {
