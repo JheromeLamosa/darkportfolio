@@ -689,24 +689,10 @@ p {
 .hobbies-title-text {
     padding-top: 30px;
 }
-.image-profile-container:hover img {
-    filter: grayscale(0);
-}
-.image-profile-container img {
-    transition: .3s ease-in-out;
-    filter: grayscale(1);
-}
+
 .image-profile-container:hover::before {
     top: 15px;
     right: -15px
-}
-
-.desktop-border, .mobile-border {
-    filter: grayscale(1);
-    transition: .3s ease-in-out;
-}
-.desktop-border:hover, .mobile-border:hover {
-    filter: grayscale(0);
 }
 
 
@@ -829,12 +815,6 @@ p {
     }
     p {
         font-size: 18px;
-    }
-    .desktop-border, .mobile-border {
-        filter: unset;
-    }
-    .image-profile-container img {
-        filter: unset;
     }
 }
 @media only screen and (max-width: 480px) {
