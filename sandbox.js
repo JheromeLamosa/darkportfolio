@@ -1,5 +1,18 @@
 jQuery(document).ready(function($) {
 
+  setTimeout(
+    function() 
+    {
+      $(".loader-wrapper").addClass("removed-already-done");
+      $("body").removeClass("not-scrollable-loader");
+    }, 2000);
+
+
+  // $(window).on("load",function(){
+  //     $(".loader-wrapper").fadeOut("slow");
+  //     alert("Hi");
+  // });
+
   $(".navbar-toggler-icon").click(function(){
     $(".side-bar-menu").addClass("show-side-bar");
     $("body").addClass("not-scrollable");
