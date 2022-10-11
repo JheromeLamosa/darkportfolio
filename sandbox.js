@@ -1,10 +1,4 @@
-jQuery(document).ready(function($) {
-
-    $(document).ready(function () {
-      $('.navbar-brand').click(function() {
-        location.reload();
-    });
-  });
+jQuery(document).ready(function($) {  
 
   setTimeout(
     function() 
@@ -13,13 +7,6 @@ jQuery(document).ready(function($) {
       $("body").removeClass("not-scrollable-loader");
     }, 2000);
 
-
-
-
-  // $(window).on("load",function(){
-  //     $(".loader-wrapper").fadeOut("slow");
-  //     alert("Hi");
-  // });
 
   $(".navbar-toggler-icon").click(function(){
     $(".side-bar-menu").addClass("show-side-bar");
