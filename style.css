@@ -695,6 +695,11 @@ p {
     right: -15px
 }
 
+/* Experience */
+.all-i-know-logos i:before {
+    font-size: 75px;
+    color: #a8b2d1;
+}
 
 
 /* Mobile Responsivenes */
