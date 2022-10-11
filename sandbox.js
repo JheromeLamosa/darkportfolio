@@ -48,11 +48,6 @@ jQuery(document).ready(function($) {
   AOS.init({
     duration: 1200,
   })
-  
-  setTimeout(function(){
-    window.location.reload(1);
- }, 5000);
-
 });
 
 
