@@ -949,7 +949,7 @@ p {
   @-webkit-keyframes rotation {
     0% { transform: rotateY(180deg); opacity: 1; width: 80px; }
     30%  { transform: rotateY(-180deg); opacity: 1; width: 80px; }
-    70% { transform: rotateY(0deg); opacity: 1; width: 80px; }
+    80% { transform: rotateY(0deg); opacity: 1; width: 80px; }
     100%  { transform: rotateY(0deg); opacity: 0; }
   }
 
