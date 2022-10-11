@@ -1,11 +1,19 @@
 jQuery(document).ready(function($) {
 
+    $(document).ready(function () {
+      $('.navbar-brand').click(function() {
+        location.reload();
+    });
+  });
+
   setTimeout(
     function() 
     {
       $(".loader-wrapper").addClass("removed-already-done");
       $("body").removeClass("not-scrollable-loader");
     }, 2000);
+
+
 
 
   // $(window).on("load",function(){
