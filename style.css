@@ -638,6 +638,12 @@ h2.projectname {
     -webkit-box-shadow: 0px 0px 300px 77px rgb(255, 255, 255);
     -moz-box-shadow: 0px 0px 300px 77px rgb(255, 255, 255);
     box-shadow: 0px 0px 300px 77px rgb(255, 255, 255);
+    transition: .2s ease-in-out;
+    border: 1px solid #ffffff47;
+}
+.bulb:hover {
+    background: none;
+    box-shadow: none;
 }
 .zig {
     position: relative;
