@@ -354,6 +354,9 @@ h2.sub-title-small {
     border: 10px solid #000;
     border-radius: 15px 15px 0px 0px;
 }
+.small-title {
+    font-size: 32px;
+}
 
 /* webite screenshots */
 .website-screenshots-container {
