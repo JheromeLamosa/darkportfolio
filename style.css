@@ -324,7 +324,7 @@ h2.sub-title-small {
 
 /* Works */
 #works h2 {
-    font-size: 32px;
+    font-size: 28px;
     color: #fff;
     font-family: var(--inter);
     font-weight: bold;
