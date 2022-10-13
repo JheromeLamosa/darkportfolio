@@ -322,7 +322,7 @@ h2.sub-title-small {
 
 }
 
-/* Works */
+/* Works Section */
 #works h2 {
     font-size: 28px;
     color: #fff;
@@ -361,6 +361,12 @@ h2.sub-title-small {
 /* webite screenshots */
 .website-screenshots-container {
     position: relative;
+    border-radius: 15px;
+    transition: all 2s ease-in-out;
+    box-shadow: none;
+}
+.website-screenshots-container:hover {
+    box-shadow: 0 0 10px -5px #03bcf4, 0 0 100px -40px #03bcf4;
 }
 .vertere .project-img-container {
     background-image: url('./img/vertere-gs.jpg');
@@ -878,6 +884,7 @@ p {
     .row {
         width: 100%;
     }
+    
     #works h2 {
         font-size: 24px;
     }
