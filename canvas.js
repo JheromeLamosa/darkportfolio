@@ -91,7 +91,7 @@ function funMouse() {
         Math.PI * 2,
         false
       );
-      canvasContext.lineWidth = 1;
+      canvasContext.lineWidth = 2;
       canvasContext.strokeStyle = "white";
       canvasContext.stroke();
       canvasContext.closePath();
