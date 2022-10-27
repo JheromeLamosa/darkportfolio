@@ -1073,12 +1073,12 @@ canvas {
     top: -13%;
     left: 50%;
     font-family: var(--inter);
+    animation: animate 30s linear infinite; 
     
 }
 .image-profile-container:hover #text {
     text-shadow: rgb(3 188 244) 0px 0px 15px, rgb(3 188 244) 0px 0px 25px;
     color: white;
-    animation: animate 30s linear infinite; 
 }
 .image-profile-container:hover #text span {
     color: white;
