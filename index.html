@@ -214,7 +214,7 @@
           <div class="about-image">
             <div class="image-profile-container">
               <img src="./img/mypiccopy.jpg" alt="profile pic">
-              <h1 id="text">Delivering-success-with-every-solution-</h1>
+              <h1 id="circular">Delivering-success-with-every-solution-</h1>
             </div>
           </div>
         </div>
@@ -431,14 +431,14 @@
     <script>
       AOS.init();
     </script>
-     <script>
-      const text = document.getElementById('text');
-      text.innerHTML = text.textContent.replace(/\S/g,"<span>$&</span>");
-      const ele = document.querySelectorAll('span');
+    <script>
+      const circular = document.getElementById('circular');
+      circular.innerHTML = circular.textContent.replace(/\S/g,"<h5>$&</h5>");
+      const ele = document.querySelectorAll('h5');
       for(var i = 1;i<ele.length;i++){
           ele[i].style.transform="rotate("+i*9.3+"deg)"
       }
-  </script>
+    </script>
 
   </body>
 </html>
