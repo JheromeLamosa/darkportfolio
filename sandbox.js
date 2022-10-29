@@ -50,14 +50,14 @@ jQuery(document).ready(function($) {
     duration: 1200,
   })
 
-  $(".skills-main-container").slick({
-    dots: false,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    arrows: false
-  });
+  // $(".skills-main-container").slick({
+  //   dots: false,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   autoplaySpeed: 3000,
+  //   arrows: false
+  // });
 
   
 });

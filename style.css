@@ -374,29 +374,61 @@ h2.sub-title-small {
 .vertere .project-img-container {
     background-image: url('./img/vertere-gs.jpg');
 }
+.vertere .project-img-container:hover {
+    background-position-y: 100%;
+    transition: 20s ease-out;
+}
 .vertere-mobile {
     background: url('./img/verteremobile.png');
+}
+.vertere .project-img-container-mobile:hover {
+    background-position-y: 100%;
+    transition: 40s ease-out;
 }
 
 .utsfp .project-img-container {
     background-image: url('./img/usaptayosafp.jpg');
 }
+.utsfp .project-img-container:hover {
+    background-position-y: 100%;
+    transition: 20s ease-out;
+}
 .utsfp-mobile {
     background-image: url('./img/usaptayosafpmobile.png');
+}
+.utsfp .project-img-container-mobile:hover {
+    background-position-y: 100%;
+    transition: 40s ease-out;
 }
 
 .hino-carmona .project-img-container {
     background-image: url('./img/hinocarmonadesktop.png');
 }
+.hino-carmona .project-img-container:hover {
+    background-position-y: 100%;
+    transition: 20s ease-out;
+}
 .hinocarmona-mobile {
     background-image: url('./img/hinocarmonamobile.png');
+}
+.hino-carmona .project-img-container-mobile:hover {
+    background-position-y: 100%;
+    transition: 30s ease-out;
 }
 
 .raalaw .project-img-container {
     background-image: url('./img/raattorneyslawdesktop.png');
 }
+.raalaw .project-img-container:hover {
+    background-position-y: 100%;
+    transition: 5s ease-out;
+}
 .raalaw-mobile {
     background-image: url('./img/raattorneyslawmobile.png'); 
+}
+.raalaw .project-img-container-mobile:hover {
+    background-position-y: 100%;
+    transition: 10s ease-out;
 }
 
 .mobile-border {    
@@ -487,15 +519,6 @@ h2.sub-title-small {
 }
 .work-list-even .mobile-border {
     right: -15px;
-}
-
-.project-img-container:hover {
-    background-position-y: 100%;
-    transition: 7s ease-out;
-}
-.project-img-container-mobile:hover {
-    background-position-y: 100%;
-    transition: 20s ease-out;
 }
 .description {
     color: #a8b2d1;
@@ -830,17 +853,14 @@ p {
 }
 .skill {
     transition: .5s ease;
-}
-.skill:hover {
-    transform: scale(1.04);
-}
-.slick-active .skill {
     position: relative;
     z-index: 999999999;
+    border: .5px solid #112240;
 }
-.slick-active .skill:hover {
+.skill:hover {
     box-shadow: 0 0 10px -5px white, 0 0 100px -80px white;
     border: .5px solid white;
+    transform: scale(1.04);
 }
 
 /* Mobile Responsivenes */
