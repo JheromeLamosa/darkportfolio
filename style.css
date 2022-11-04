@@ -551,7 +551,7 @@ h2.sub-title-small {
     margin-bottom: 60px;
 }
 h2.projectname {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .open-the-site-button a {
     font-size: 20px;
@@ -841,12 +841,14 @@ p {
     color: #a8b2d1;
 }
 .skill p {
-    font-size: 14px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .skill-main-container {
-    width: 25%;
-    padding: 15px;
+    width: 50%;
+    padding: 15px 30px 15px 0;
 }
 .skills-main-container .slick-track {
     padding: 50px 0px;
@@ -854,7 +856,6 @@ p {
 .skill {
     transition: .5s ease;
     position: relative;
-    z-index: 999999999;
     border: .5px solid #112240;
 }
 .skill:hover {
@@ -862,6 +863,20 @@ p {
     border: .5px solid white;
     transform: scale(1.04);
 }
+.skill-logo i {
+    font-size: 35px;
+    color: #a8b2d1;
+    padding: 0 15px;
+    transition: .3s ease-in-out;
+}
+.skill-logo i:hover {
+    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4;
+    color: white;
+}
+.skills-logo-container {
+    padding: 15px 0;
+}
+
 
 /* Mobile Responsivenes */
 
@@ -976,7 +991,7 @@ p {
     }
     .about-image {
         justify-content: center;
-        padding-top: 50px;
+        padding-top: 80px;
     }
     p {
         font-size: 18px;
@@ -1105,6 +1120,9 @@ p {
     }
     .strip {
         width: 14px;
+    }
+    .skill-main-container {
+        width: 100%;
     }
 
 }
