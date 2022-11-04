@@ -360,6 +360,12 @@ h2.sub-title-small {
 .small-title {
     font-size: 32px;
 }
+.my-projects-tools h2.sub-title-small {
+    margin-top: 15px;
+}
+.work-list-odd .my-projects-tools h2.sub-title-small {
+    justify-content: flex-end;
+}
 
 /* webite screenshots */
 .website-screenshots-container {
@@ -535,6 +541,7 @@ h2.sub-title-small {
 .works-slider {
     display: flex;
     padding-bottom: 150px;
+    width: 100%;
 }
 .project-info {
     width: 45%;
@@ -1005,6 +1012,9 @@ p {
     }
     .skill-logo i {
         font-size: 35px;
+    }
+    .my-projects-tools h2.sub-title-small {
+        justify-content: center!important;
     }
 }
 @media only screen and (max-width: 480px) {
