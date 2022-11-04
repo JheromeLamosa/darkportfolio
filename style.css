@@ -866,7 +866,7 @@ p {
 .skill-logo i {
     font-size: 35px;
     color: #a8b2d1;
-    padding: 0 15px;
+    padding: 0 15px 15px;
     transition: .3s ease-in-out;
 }
 .skill-logo i:hover {
@@ -996,6 +996,10 @@ p {
     p {
         font-size: 18px;
     }
+    .skill-main-container {
+        width: 100%;
+        padding: 0px 0px 30px 0;
+    }
 }
 @media only screen and (max-width: 480px) {
     #main-banner h1 {
@@ -1123,6 +1127,9 @@ p {
     }
     .skill-main-container {
         width: 100%;
+    }
+    .skills-main-container .skill {
+        height: auto!important;
     }
 
 }
