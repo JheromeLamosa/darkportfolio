@@ -362,6 +362,9 @@ h2.sub-title-small {
 }
 .my-projects-tools h2.sub-title-small {
     margin-top: 15px;
+    font-size: 13px!important;
+    font-weight: lighter!important;
+    color: #a8b2d1!important;
 }
 .work-list-odd .my-projects-tools h2.sub-title-small {
     justify-content: flex-end;
@@ -883,6 +886,7 @@ p {
 .skills-logo-container {
     padding: 15px 0;
 }
+
 
 
 /* Mobile Responsivenes */
